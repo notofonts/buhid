@@ -2,13 +2,14 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[6] NotoSansBuhid-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[7] NotoSansBuhid-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
+
+* 🔥 **FAIL** Version number 2.001007080078125 is equal to version on Google Fonts GitHub repo.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -75,8 +76,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 5 | 115 | 8 | 106 | 0 |
-| 0% | 0% | 2% | 49% | 3% | 45% | 0% |
+| 1 | 1 | 5 | 114 | 7 | 107 | 0 |
+| 0% | 0% | 2% | 49% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

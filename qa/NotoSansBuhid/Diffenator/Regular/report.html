@@ -3,10 +3,11 @@
 <head>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>GFR - Text</title>
+    <title>GFR - Glyphs</title>
     
     <style type="text/css">
     
+
         html{
 	  font-family: sans-serif;
 	}
@@ -121,37 +122,86 @@
             }
 
 	  
+	    @font-face { font-family: before; src: url(before.ttf); }
+	  
+
+	  
+	    @font-face { font-family: after; src: url(after.ttf); }
+	  
 
 	  
 
 	  
-	    @font-face { src: url(fonts/NotoSansBuhid-Regular.ttf); font-family: Noto-Sans-Buhid-Regular; font-weight: 400; font-stretch: 100%; font-style: normal; }
+	    .before { font-family: before; }
 	  
 
 	  
-
+	    .after { font-family: after; }
 	  
 
-	  
-	    .Noto-Sans-Buhid-Regular { font-family: Noto-Sans-Buhid-Regular; font-weight: 400; font-style: normal; font-stretch: 100%; }
 	  
 	
+.cell{
+  position: relative;
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
     </style>
 </head>
 <body>
     
+    <div id="nav">
+        <div id="font-toggle">Before</div>
+     </div>
+    
     <div id="content">
 	<h2>
-<b>Text</b>
+<b>Diffenator</b>
 </h2>
 	
   
-      <div class="box">
-	<div class="box-title">Noto-Sans-Buhid-Regular 14pt</div>
-	<span class="Noto-Sans-Buhid-Regular" style="font-size: 14pt">
-	  ᜶ ᝐᝍᝏᝋ ᝈᝃ ᝌᝆᝍ ᝇᝄᝆᝒ ᝀᝇᝍᝃ ᝋᝈᝏᝉᝍᝒᝏᝍᝐᝌ ᝐᝋᝓᝆᝉᝈᝈᝃ ᝄᝂᝍᝏᝇᝎᝓᝐ ᝁᝏ ᝀᝊᝒᝄᝓᝐᝈᝌᝋ ᝀᝈᝓᝇᝈᝐᝌᝆᝒ᜵
-          </span>
+    <div class="box">
+    <div class="box-title">Tables</div>
+     
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3739180344</span> <span class="attrib-after">3741245041</span>
+  </div>
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">4111318798</span> <span class="attrib-after">3906256504</span>
+  </div>
+</div>
+<div class="node" >
+name
+  <div class="node" style="display:none">
+  (0, 3, 1, 1033)
+    <span class="attrib-before">Copyright 2022 The Noto Project Authors (https://github.com/notofonts/buhid)</span> <span class="attrib-after">Copyright 2022 The Noto Project Authors (https://github.com/notofonts/b uhid)</span>
+  </div>
+</div>
+    </div>
+	    
        </div>
+    
+    </div>
+
     
 
     </div>
